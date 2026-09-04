@@ -1,0 +1,13 @@
+# Virtual environment & Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore heavy output detection files, but keep directory structure
+output/*
+!output/.gitkeep
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# Virtual environment & Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary scratch folder
+scratch/
+
+# Loose root files (already structured under models/vehicle_detection)
+/vehicle_detection.py
+/yolov8n.pt
+/video/
+/output/
+
+# OS specific files
+.DS_Store
+Thumbs.db
